@@ -1,0 +1,735 @@
+QWidget {
+    background-color: #F6E2D2;
+}
+
+/* ---------- title_style ---------- */
+#title_style {
+    color: #5A270F;
+    font-size: 40px;
+    font-weight: bold;
+    font: 29pt "8514oem";
+    padding: 5px;
+}
+
+/* ---------- backbutton_style ---------- */
+#backbutton_style {
+    background-color: #FFFFFF;
+    color: #6C3B1C;
+    border: 2px solid #92664A;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px 12px;
+}
+#backbutton_style:hover {
+    background-color: #DF8142;
+    color: white;
+}
+#backbutton_style:pressed {
+    background-color: #6C3B1C;
+    color: white;
+}
+
+/* ---------- checkbox_style ---------- */
+#checkbox_style {
+    color: #5A270F;
+    spacing: 5px;
+    font: 9pt "8514oem";
+    font-size: 14px;
+}
+
+/* ---------- button_style ---------- */
+#button_style {
+    background-color: #6C3B1C;
+    color: white;
+    font: 9pt "8514oem";
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 12px;
+    font-weight: bold;
+}
+#button_style:hover {
+    background-color: #DF8142;
+}
+#button_style:pressed {
+    background-color: #5A270F;
+}
+
+/* ---------- text_box_style ---------- */
+#text_box_style {
+    border: 2px solid #92664A;
+    font: 9pt "8514oem";
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #FFFFFF;
+    color: #5A270F;
+}
+#text_box_style:focus {
+    border: 2px solid #DF8142;
+}
+
+/* ---------- label_style ---------- */
+#label_style {
+    color: #5A270F;
+    font-size: 14px;
+    font: 9pt "8514oem";
+    font-weight: bold;
+}
+
+/* ---------- login_box_loc_style ---------- */
+#login_box_loc_style {
+    background: #FFFFFF;
+    border: 2px solid #92664A;
+    border-radius: 22px;
+    padding: 22px;
+}
+
+/* ---------- admin_button ---------- */
+#admin_button {
+    color: white;
+    font: 16pt "8514oem";
+    font-weight: bold;
+    background-color: #92664A;
+    border: 2px solid #92664A;
+    border-radius: 22px;
+}
+#admin_button:hover {
+    background-color: #DF8142;
+}
+#admin_button:pressed {
+    background-color: #5A270F;
+}
+
+/* ---------- teacher_button ---------- */
+#teacher_button {
+    color: white;
+    font: 16pt "8514oem";
+    font-weight: bold;
+    background-color: #6C3B1C;
+    border: 2px solid #6C3B1C;
+    border-radius: 22px;
+}
+#teacher_button:hover {
+    background-color: #DF8142;
+}
+#teacher_button:pressed {
+    background-color: #5A270F;
+}
+
+/* ---------- student_button ---------- */
+QPushButton#student_button {
+    color: white;
+    font: 16pt "8514oem";
+    font-weight: bold;
+    background-color: #5A270F;
+    border: 2px solid #5A270F;
+    border-radius: 22px;
+}
+QPushButton#student_button:hover {
+    background-color: #DF8142;
+}
+QPushButton#student_button:pressed {
+    background-color: #6C3B1C;
+}
+
+/* ---------- cuiportal_style ---------- */
+#cuiportal_style {
+    color: #5A270F;
+    font-size: 68px;
+    font-weight: 900;
+    font-family: 'Segoe UI';
+    letter-spacing: 6px;
+    padding: 20px;
+}
+
+/* ---------- search_style ---------- */
+#search_style {
+    padding: 10px;
+    border-radius: 12px;
+    border: 2px solid #92664A;
+}
+
+/* ---------- icon_style ---------- */
+#icon_style {
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+#icon_style:hover {
+    background-color: #F6E2D2;
+    border: 2px solid #92664A;
+}
+
+/* ---------- dashboard_title_style ---------- */
+#dashboard_title_style {
+    font: 14pt "8514oem";
+    color: white;
+    font-weight: bold;
+    letter-spacing: 4px;
+    background-color: #6C3B1C;
+    padding: 12px 24px;
+    border-radius: 14px;
+}
+
+/* ---------- course table ---------- */
+#course_detail_table {
+    background-color: #F6E2D2;
+    border: 2px solid #92664A;
+    border-radius: 16px;
+    gridline-color: #92664A;
+    font-family: "8514oem";
+    font-size: 14pt;
+    color: #5A270F;
+}
+
+/* ---------- TABLE DATA CELLS ---------- */
+#course_detail_table::item {
+    background-color: #FFFFFF;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+#course_detail_table::item:selected {
+    background-color: #DF8142;
+    color: white;
+    font-weight: bold;
+}
+
+/* ---------- TABLE HEADER ---------- */
+#course_detail_table QHeaderView::section {
+    background-color: #6C3B1C;
+    color: white;
+    font-family: "8514oem";
+    font-size: 15pt;
+    font-weight: bold;
+    padding: 14px;
+    border: none;
+}
+
+/* ---------- SCROLL BAR ---------- */
+#course_detail_table QScrollBar:vertical {
+    background: #F6E2D2;
+    width: 14px;
+    border-radius: 7px;
+}
+
+#course_detail_table QScrollBar::handle:vertical {
+    background: #DF8142;
+    border-radius: 7px;
+    min-height: 25px;
+}
+#course_detail_table QScrollBar::handle:vertical:hover {
+    background: #6C3B1C;
+}
+
+/* ---------- Course Card ---------- */
+QFrame#courseCard {
+    background-color: #FFFFFF;
+    border-radius: 22px;
+    border: 2px solid #92664A;
+    padding: 16px;
+}
+QFrame#courseCard:hover {
+    background-color: #F6E2D2;
+    border: 2px solid #6C3B1C;
+}
+
+/* ---------- Course Title ---------- */
+QLabel#courseTitle {
+    font: 16pt "8514oem";
+    font-weight: bold;
+    color: #5A270F;
+}
+
+/* ---------- Course Text ---------- */
+QLabel#courseText {
+    font: 13pt "8514oem";
+    color: #6C3B1C;
+}
+
+/* ---------- Register Button ---------- */
+QPushButton#registerButton {
+    background-color: #6C3B1C;
+    color: white;
+    font: 13pt "8514oem";
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 10px 26px;
+}
+QPushButton#registerButton:hover {
+    background-color: #DF8142;
+}
+QPushButton#registerButton:pressed {
+    background-color: #5A270F;
+}
+
+/* ---------- ATTENDANCE TITLE ---------- */
+#attendance_title_style {
+    font: 18pt "8514oem";
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+    background-color: #6C3B1C;
+    padding: 12px 28px;
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+
+/* ---------- ATTENDANCE TABLE ---------- */
+#attendance_table {
+    background-color: #F6E2D2;
+    border: 2px solid #92664A;
+    border-radius: 16px;
+    gridline-color: #92664A;
+    font-family: "8514oem";
+    font-size: 14pt;
+    color: #5A270F;
+}
+
+/* ---------- ATTENDANCE TABLE CELLS ---------- */
+#attendance_table::item {
+    background-color: #FFFFFF;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+#attendance_table::item:selected {
+    background-color: #DF8142;
+    color: white;
+    font-weight: bold;
+}
+
+/* ---------- ATTENDANCE HEADER ---------- */
+#attendance_table QHeaderView::section {
+    background-color: #6C3B1C;
+    color: white;
+    font-family: "8514oem";
+    font-size: 15pt;
+    font-weight: bold;
+    padding: 14px;
+    border: none;
+}
+
+/* ---------- PRESENT / ABSENT CHECKBOX ---------- */
+#attendance_checkbox::indicator {
+    width: 22px;
+    height: 22px;
+}
+
+#attendance_checkbox::indicator:unchecked {
+    border: 2px solid #92664A;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#attendance_checkbox::indicator:checked {
+    background-color: #DF8142;
+    border: 2px solid #6C3B1C;
+}
+
+/* ---------- ATTENDANCE PROGRESS BAR ---------- */
+#attendance_progress {
+    border: 2px solid #92664A;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    font: 10pt "8514oem";
+    color: #5A270F;
+}
+
+#attendance_progress::chunk {
+    background-color: #DF8142;
+    border-radius: 8px;
+}
+
+/* ---------- BACK BUTTON (reuse your style) ---------- */
+#backbutton_style {
+    min-width: 120px;
+}
+
+/* ===================== ATTENDANCE FORM PANEL ===================== */
+#attendance_form_box {
+    background-color: #FFFFFF;
+    border: 2px solid #92664A;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+/* ===================== FORM LABELS ===================== */
+#form_label {
+    color: #5A270F;
+    font: 12pt "8514oem";
+    font-weight: bold;
+    padding-right: 6px;
+}
+
+/* ===================== COMBO BOX (DROPDOWNS) ===================== */
+#form_combo {
+    background-color: white;
+    border: 2px solid #92664A;
+    border-radius: 10px;
+    padding: 8px;
+    font: 11pt "8514oem";
+    color: #5A270F;
+    min-height: 34px;
+}
+
+#form_combo:hover {
+    border: 2px solid #DF8142;
+}
+
+#form_combo::drop-down {
+    border: none;
+}
+
+#form_combo::down-arrow {
+    image: none;
+    width: 10px;
+    height: 10px;
+}
+
+/* ===================== DATE & TIME INPUT ===================== */
+#form_input {
+    background-color: white;
+    border: 2px solid #92664A;
+    border-radius: 10px;
+    padding: 8px 12px;
+    font: 11pt "8514oem";
+    color: #5A270F;
+    min-height: 34px;
+}
+
+#form_input:hover {
+    border: 2px solid #DF8142;
+}
+
+#form_input:focus {
+    border: 2px solid #6C3B1C;
+}
+
+/* ===================== PROCEED BUTTON (ENHANCED) ===================== */
+#button_style {
+    margin-top: 8px;
+    min-height: 40px;
+}
+
+/* ===================== FORM GRID SPACING ===================== */
+QGridLayout {
+    padding: 10px;
+}
+/* ---------- ATTENDANCE TITLE ---------- */
+#attendance_title_style {
+    font: 20pt "8514oem";
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+    background-color: #6C3B1C;
+    padding: 14px 30px;
+    border-radius: 18px;
+    margin: 12px;
+    border: 2px solid #92664A;
+}
+
+/*admin_student*/
+/* ---------- ADMIN TITLE ---------- */
+#admin_student_title {
+    font: 20pt "8514oem";
+    color: white;
+    font-weight: bold;
+    letter-spacing: 4px;
+    background-color: #6C3B1C;
+    padding: 14px 36px;
+    border-radius: 18px;
+    border: 2px solid #92664A;
+    margin-bottom: 12px;
+}
+
+/* ---------- ADMIN INPUT FIELDS ---------- */
+#admin_student_input {
+    background-color: white;
+    border: 2px solid #92664A;
+    border-radius: 10px;
+    padding: 10px 12px;
+    font: 11pt "8514oem";
+    color: #5A270F;
+    min-height: 34px;
+}
+
+#admin_student_input:hover {
+    border: 2px solid #DF8142;
+}
+
+#admin_student_input:focus {
+    border: 2px solid #6C3B1C;
+}
+
+/* ---------- ADMIN SPINBOX & COMBO ---------- */
+#admin_student_combo {
+    background-color: white;
+    border: 2px solid #92664A;
+    border-radius: 10px;
+    padding: 8px;
+    font: 11pt "8514oem";
+    color: #5A270F;
+    min-height: 34px;
+}
+#profile_value {
+    color: #6C3B1C;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 6px 10px;
+    background-color: #F7EFEA;
+    border: 1px solid #92664A;
+    border-radius: 6px;
+    min-height: 26px;
+}
+
+#admin_student_combo:hover {
+    border: 2px solid #DF8142;
+}
+
+/* ---------- ADMIN LABELS ---------- */
+#admin_student_label {
+    color: #5A270F;
+    font-size: 14px;
+    font: 10pt "8514oem";
+    font-weight: bold;
+    padding-right: 6px;
+}
+
+/* ---------- ADMIN SUBMIT BUTTON ---------- */
+#admin_student_button {
+    background-color: #6C3B1C;
+    color: white;
+    font: 12pt "8514oem";
+    font-weight: bold;
+    border-radius: 14px;
+    padding: 12px 30px;
+    min-height: 44px;
+    border: 2px solid #92664A;
+}
+
+#admin_student_button:hover {
+    background-color: #DF8142;
+}
+
+#admin_student_button:pressed {
+    background-color: #5A270F;
+}
+
+/* ---------- ADMIN FORM GRID SPACING ---------- */
+QGridLayout {
+    padding: 12px;
+}
+
+/*report admin*/
+QPushButton#report_card {
+    background-color: #FFFFFF;
+    border: 2px solid #92664A;
+    border-radius: 20px;
+    padding: 18px;
+    font: 14pt "8514oem";
+    color: #5A270F;
+    font-weight: bold;
+}
+
+QPushButton#report_card:hover {
+    background-color: #F6E2D2;
+    border: 2px solid #6C3B1C;
+}
+
+QPushButton#report_card:pressed {
+    background-color: #DF8142;
+    color: white;
+}
+
+
+/* ---------- TOP BAR PANEL ---------- */
+#admin_reports_topbar {
+    background-color: #FFFFFF;
+    border: 2px solid #92664A;
+    border-radius: 18px;
+    padding: 12px;
+}
+
+
+/* TEACHER COURSE*/
+/* ---------- COURSE CARD ---------- */
+QFrame#courseCard {
+    background-color: #FFFFFF;
+    border-radius: 22px;
+    border: 3px solid #92664A;
+    padding: 12px;
+}
+
+QFrame#courseCard:hover {
+    background-color: #F6E2D2;
+    border: 3px solid #6C3B1C;
+}
+
+QLabel#courseTitle {
+    font: 18pt "8514oem";
+    font-weight: bold;
+    color: #5A270F;
+    padding-bottom: 2px;
+}
+
+QLabel#courseTextBold {
+    font: 13pt "8514oem";
+    font-weight: bold;
+    color: #6C3B1C;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* ---------- SCROLL AREA ---------- */
+QScrollArea {
+    border: none;
+    background-color: transparent;
+}
+
+
+/* ---------- SCROLL BAR (VERTICAL) ---------- */
+QScrollBar:vertical {
+    background: #F6E2D2;
+    width: 14px;
+    border-radius: 7px;
+}
+
+QScrollBar::handle:vertical {
+    background: #DF8142;
+    border-radius: 7px;
+    min-height: 25px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #6C3B1C;
+}
+
+
+/* ---------- SCROLL BAR TRACK ---------- */
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    background: none;
+    border: none;
+}
+
+#groupbox_style {
+    border: 2px solid #1a73e8;
+    border-radius: 12px;
+    padding: 15px;
+    background: white;
+    margin-bottom: 15px;
+}
+QFrame#card {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 18px;
+    border: 1px solid #d9e2ef;
+    margin-bottom: 15px;
+}
+
+QFrame#card:hover {
+    background: #f4f7ff;
+    border-color: #7aa2ff;
+}
+
+
+/* ----------------------------
+   COURSE NAME (BIG TITLE)
+-----------------------------*/
+QLabel#card_title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2c4bff;
+    margin-bottom: 6px;
+}
+
+
+/* ----------------------------
+   ASSIGNMENT TITLE
+-----------------------------*/
+QLabel#title_label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+
+/* ----------------------------
+   GENERAL LABELS INSIDE CARD
+-----------------------------*/
+QFrame#card QLabel {
+    font-size: 14px;
+    color: #444444;
+}
+
+#section_card {
+    background-color: #FFFFFF;
+    border: 2px solid #92664A;
+    border-radius: 18px;
+    padding: 20px;
+    margin-bottom: 22px;
+}
+
+/* ======= SECTION TITLE ======= */
+#section_title {
+    color: #5A270F;
+    font: 16pt "8514oem";
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+
+/* ======= MARKS TABLE ======= */
+#marks_table {
+    background-color: #F6E2D2;
+    border: 2px solid #92664A;
+    border-radius: 12px;
+    gridline-color: #92664A;
+    font: 11pt "8514oem";
+    color: #5A270F;
+}
+
+/* ===== TABLE CELLS ===== */
+#marks_table::item {
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+#marks_table::item:selected {
+    background-color: #DF8142;
+    color: white;
+    font-weight: bold;
+}
+
+/* ===== TABLE HEADER ===== */
+#marks_table QHeaderView::section {
+    background-color: #6C3B1C;
+    color: white;
+    font: 12pt "8514oem";
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+}
+
+/* ===== SCROLL BAR ===== */
+#marks_table QScrollBar:vertical {
+    background: #F6E2D2;
+    width: 12px;
+    border-radius: 6px;
+}
+
+#marks_table QScrollBar::handle:vertical {
+    background: #DF8142;
+    border-radius: 6px;
+}
+
+#marks_table QScrollBar::handle:vertical:hover {
+    background: #6C3B1C;
+}
